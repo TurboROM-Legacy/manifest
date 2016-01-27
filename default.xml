@@ -49,7 +49,6 @@
   <project path="frameworks/opt/net/wifi" name="TurboROM/frameworks_opt_net_wifi" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/opt/telephony" name="TurboROM/frameworks_opt_telephony" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/support" name="TurboROM/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
-  <project path="hardware/broadcom/libbt" name="TurboROM/hardware_broadcom_libbt" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/camera" name="TurboROM/hardware_qcom_camera" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BluetoothExt" name="TurboROM/packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Bluetooth" name="TurboROM/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="m6.0.1" />
@@ -82,6 +81,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
   <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" revision="cm-13.0" />
