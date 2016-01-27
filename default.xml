@@ -31,6 +31,7 @@
            revision="cm-13.0" />
 
   <!-- Turbo projects -->
+  <project path="art" name="TurboROM/art" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="build" name="TurboROM/build" groups="pdk" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -137,7 +138,6 @@
 
   <!-- Aosp projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
