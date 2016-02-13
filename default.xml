@@ -142,7 +142,9 @@
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="Slim" revision="mm6.0" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" /> 
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="staging/mm6.0" />
+  <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" remote="github" revision="staging/mm6.0" />
 
   <!-- Aosp projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
