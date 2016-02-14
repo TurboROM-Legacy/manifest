@@ -75,6 +75,7 @@
   <project path="packages/inputmethods/LatinIME" name="TurboROM/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/ContactsProvider" name="TurboROM/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/DownloadProvider" name="TurboROM/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
+  <project path="packages/providers/MediaProvider" name="TurboROM/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/TelephonyProvider" name="TurboROM/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telecomm" name="TurboROM/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telephony" name="TurboROM/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
@@ -459,7 +460,6 @@
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" remote="aosp" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
