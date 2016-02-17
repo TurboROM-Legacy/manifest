@@ -39,6 +39,7 @@
   <project path="bionic" name="TurboROM/bionic" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="device/qcom/common" name="TurboROM/device_qcom_common" remote="github" revision="m6.0.1" />
   <project path="device/qcom/sepolicy" name="TurboROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
+  <project path="external/apache-http" name="TurboROM/external_apache-http" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/busybox" name="TurboROM/external_busybox" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="TurboROM/external_chromium-webview" remote="github" revision="m6.0.1" />
   <project path="external/e2fsprogs" name="TurboROM/external_e2fsprogs" groups="pdk" remote="github" revision="m6.0.1" />
@@ -46,6 +47,7 @@
   <project path="external/guava" name="TurboROM/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="TurboROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="TurboROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
+  <project path="external/okhttp" name="TurboROM/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="TurboROM/external_sepolicy" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="TurboROM/external_skia" remote="github" revision="m6.0.1" />
   <project path="frameworks/av" name="TurboROM/frameworks_av" groups="pdk" remote="github" revision="m6.0.1" />
@@ -84,6 +86,7 @@
   <project path="system/extras" name="TurboROM/system_extras" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="system/media" name="TurboROM/system_media" remote="github" revision="m6.0.1" />
   <project path="system/vold" name="TurboROM/system_vold" groups="pdk" remote="github" revision="m6.0.1" />
+  <project path="vendor/qcom/opensource/dpm" name="TurboROM/vendor_qcom_opensource_dpm" remote="github" revision="m6.0.1" />
   <project path="vendor/turbo" name="TurboROM/vendor_turbo" remote="github" revision="m6.0.1" />
 
   <!-- Start CM repos -->
@@ -145,7 +148,6 @@
   <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="Slim" revision="mm6.0" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" />
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="staging/mm6.0" />
-  <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" remote="github" revision="staging/mm6.0" />
 
   <!-- Aosp projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
@@ -183,7 +185,6 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" remote="aosp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -324,7 +325,6 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
