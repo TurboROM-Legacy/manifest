@@ -50,7 +50,6 @@
   <project path="external/okhttp" name="TurboROM/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="TurboROM/external_sepolicy" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="TurboROM/external_skia" remote="github" revision="m6.0.1" />
-  <project path="external/TurboUtils" name="TurboROM/external_TurboUtils" remote="github" revision="m6.0.1" />
   <project path="frameworks/av" name="TurboROM/frameworks_av" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="TurboROM/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="TurboROM/frameworks_native" groups="pdk" remote="github" revision="m6.0.1" />
@@ -75,7 +74,6 @@
   <project path="packages/apps/PackageInstaller" name="TurboROM/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/PhoneCommon" name="TurboROM/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Settings" name="TurboROM/packages_apps_Settings" groups="pdk-fs" remote="github" revision="m6.0.1" />
-  <project path="packages/apps/TUI" name="TurboROM/packages_apps_TUI" remote="github" revision="m6.0.1" />
   <project path="packages/apps/WallpaperPicker" name="TurboROM/packages_apps_WallpaperPicker" remote="github" revision="m6.0.1" />
   <project path="packages/inputmethods/LatinIME" name="TurboROM/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/ContactsProvider" name="TurboROM/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
