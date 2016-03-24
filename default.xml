@@ -85,6 +85,7 @@
   <project path="packages/providers/TelephonyProvider" name="TurboROM/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telecomm" name="TurboROM/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telephony" name="TurboROM/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
+  <project path="packages/wallpapers/LivePicker" name="TurboROM/packages_wallpapers_LivePicker" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="system/bt" name="TurboROM/system_bt" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="system/core" name="TurboROM/system_core" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="system/extras" name="TurboROM/system_extras" groups="pdk" remote="github" revision="m6.0.1" />
@@ -466,7 +467,6 @@
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" remote="aosp" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" groups="pdk-fs" remote="aosp" />
