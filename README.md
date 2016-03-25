@@ -1,9 +1,23 @@
- Turbo ROM 
+Welcome to Turbo ROM
+===================
 
-To initialize Turbo ROM's sources, use the following command: 
 
-repo init -u git://github.com/TurboROM/manifest.git -b m6.0.1
+Getting Started
+---------------
 
-Then to sync the sources:
+To get started with Turbo ROM, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
 
-repo sync
+
+To initialize your local repository using the Turbo ROM trees, use this command:
+
+
+	repo init -u git://github.com/TurboROM/platform_manifest.git -b m6.0.1
+	
+
+
+Then sync up with this command:
+
+	repo sync -j4 --force-sync --force-broken
+	
+You can make the 4 higher depending on how fast your internet connection is. 
