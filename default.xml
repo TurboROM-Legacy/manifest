@@ -137,6 +137,7 @@
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap"remote="cm" revision="cm-13.0" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
