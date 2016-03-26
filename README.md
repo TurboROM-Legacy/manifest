@@ -10,6 +10,8 @@ To get started with Turbo ROM, you'll need to get familiar with
 
 Initializing:
 
+First, create a folder to hold the source code: 
+
 mkdir ~/turbo
 cd ~/turbo
 
@@ -27,15 +29,24 @@ Then sync up with this command:
 You can make the 4 higher depending on how fast your internet connection is. 
 
 
- ------------
+-------------
  
 Building from source
 
 cd ~/turbo
+
 . build/envsetup.sh
-breakfast <device>
-mka -j#
- ------- # is number of jobs you CPU can handle --------
+
+breakfast <device codename>
+
+Then use either of these: 
+
+make -j# bacon (# is number of jobs you CPU can handle)
+
+or:
+
+mka bacon (Uses as much of the CPU as is possible)
+
  
  Our official device repository:
  [TurboROM devices](https://github.com/TurboROM-Devices)
