@@ -32,9 +32,13 @@ You can make the 4 higher depending on how fast your internet connection is.
 Building from source
 
 cd ~/turbo
+
 . build/envsetup.sh
+
 breakfast <device>
+
 mka -j#
+
  ------- # is number of jobs you CPU can handle --------
  
  Our official device repository:
