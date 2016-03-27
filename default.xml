@@ -163,7 +163,7 @@
   <!-- Slim -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="slim" revision="mm6.0" />
-  <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
+  <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="slim" revision="mm6.0" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="mm6.0" />
