@@ -10,6 +10,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/"/>
+
   <remote  name="github"
            fetch="https://github.com/" />
 
