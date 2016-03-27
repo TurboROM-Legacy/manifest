@@ -45,13 +45,15 @@ Third:
 
 	breakfast (device codename)
 
-Then use either of these: 
+Then use one of these: 
 
 	make -j# bacon (# is number of jobs you CPU can handle)
 
 or:
 
 	mka bacon (Uses as much of the CPU as is possible)
+
+(NOTE: bacon does not build the OnePlus One, it will build any device)
 
  
  Our official device repository:
