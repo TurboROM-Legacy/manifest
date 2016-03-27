@@ -7,28 +7,31 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r22" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <remote  name="github"
-           fetch="https://github.com/" />
-
-  <default revision="refs/heads/m6.0.1"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            revision="cm-13.0" />
 
-  <remote  name="Slim"
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="slim"
            fetch="git://github.com/SlimRoms"
-           review="https://review.slimroms.org/"/>
+           review="https://review.slimroms.org/" />
 
   <remote  name="tm"
            fetch="https://github.com/themuppets"
            revision="cm-13.0" />
+
+  <default revision="refs/heads/m6.0.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
   <!-- Turbo projects -->
   <project path="art" name="TurboROM/art" groups="pdk" remote="github" revision="m6.0.1" />
@@ -144,12 +147,12 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" revision="cm-13.0" />
 
   <!-- Slim -->
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="Slim" revision="mm6.0" />
-  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" revision="mm6.0" />
+  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
-  <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
-  <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="Slim" revision="mm6.0" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" />
+  <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="slim" revision="mm6.0" />
+  <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="slim" revision="mm6.0" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="mm6.0" />
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="staging/mm6.0" />
 
   <!-- Aosp projects -->
