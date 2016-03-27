@@ -47,11 +47,15 @@ Third:
 
 Then use either of these: 
 
-	make -j# bacon (# is number of jobs you CPU can handle)
+	make -j# (device codename) (# is number of jobs you CPU can handle)
 
 or:
 
-	mka bacon (Uses as much of the CPU as is possible)
+	mka (device codename) (Uses as much of the CPU as is possible)
+
+If none of the above worked, then use this :
+
+        brunch (device codename) [This will automatically do a breakfast (device codename) then make (the options that's recommended for your device) (device codename), it will 100% work all the time]
 
  
  Our official device repository:
