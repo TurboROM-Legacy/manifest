@@ -38,6 +38,10 @@
            fetch="git://github.com/SlimRoms"
            review="https://review.slimroms.org/" />
 
+  <remote name="pac"
+           fetch="https://github.com/PAC-ROM"
+           review="review.pac-rom.com" />
+
   <remote  name="tm"
            fetch="https://github.com/themuppets"
            revision="cm-13.0" />
@@ -537,5 +541,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-</manifest>
 
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" revision="pac-6.0" remote="pac" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" revision="pac-6.0" remote="pac" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="pac-6.0" remote="pac" />
+
+</manifest>
