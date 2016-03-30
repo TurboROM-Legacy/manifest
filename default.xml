@@ -30,6 +30,10 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
+  <remote name="pac"
+           fetch="https://github.com/PAC-ROM"
+           review="review.pac-rom.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -537,5 +541,11 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
+  
+  <!-- PAC-ROM projects -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="pac" revision="pac-6.0" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="pac" revision="pac-6.0" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="pac" revision="pac-6.0" />  
+  
 </manifest>
 
