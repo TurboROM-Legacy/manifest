@@ -166,6 +166,7 @@
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-13.0" />
+  <project path="packages/apps/Browser" name="Phoenix-Rom/packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
