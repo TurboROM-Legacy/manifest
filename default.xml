@@ -82,7 +82,6 @@
   <project path="frameworks/opt/telephony" name="TurboROM/frameworks_opt_telephony" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/support" name="TurboROM/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="hardware/cyanogen" name="TurboROM/hardware_cyanogen" remote="github" revision="m6.0.1" />
-  <project path="hardware/qcom/fm" name="TurboROM/hardware_qcom_fm" groups="qcom" remote="github" revision="mm" />
   <project path="hardware/qcom/gps" name="TurboROM/hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="m6.0.1" />
   <project path="hardware/ril" name="TurboROM/hardware_ril" remote="github" revision="m6.0.1" groups="pdk" />
   <project path="hardware/ril-caf" name="TurboROM/hardware_ril" remote="github" groups="pdk" revision="m6.0.1-caf" />
@@ -93,7 +92,6 @@
   <project path="packages/apps/Contacts" name="TurboROM/packages_apps_Contacts" remote="github" revision="m6.0.1" />
   <project path="packages/apps/DeskClock" name="TurboROM/packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Dialer" name="TurboROM/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="m6.0.1" />
-  <project path="packages/apps/FMRadio" name="TurboROM/packages_apps_FMRadio" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/InCallUI" name="TurboROM/packages_apps_InCallUI" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Messaging" name="TurboROM/packages_apps_Messaging" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Nfc" name="TurboROM/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="m6.0.1" />
@@ -151,6 +149,7 @@
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cm"  />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8916" />
@@ -163,6 +162,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="cm" revision="cm-13.0" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-13.0" />
