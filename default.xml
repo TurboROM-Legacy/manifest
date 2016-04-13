@@ -69,6 +69,7 @@
   <project path="external/guava" name="TurboROM/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="TurboROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="TurboROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
+  <project path="external/lzma" name="TurboROM/external_lzma" groups="pdk" remote="github" revision="m6.0.1"  />
   <project path="external/okhttp" name="TurboROM/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="TurboROM/external_sepolicy" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="TurboROM/external_skia" remote="github" revision="m6.0.1" />
@@ -332,7 +333,6 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/lzma" name="platform/external/lzma" groups="pdk" remote="aosp" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
