@@ -49,7 +49,8 @@
   <default revision="refs/heads/m6.0.1"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-f="true"
+           sync-j="8" />
 
   <!-- Turbo projects -->
   <project path="art" name="TurboROM/art" groups="pdk" remote="github" revision="m6.0.1" />
