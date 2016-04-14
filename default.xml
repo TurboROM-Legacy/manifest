@@ -102,6 +102,7 @@
   <project path="packages/apps/PackageInstaller" name="TurboROM/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/PhoneCommon" name="TurboROM/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Settings" name="TurboROM/packages_apps_Settings" groups="pdk-fs" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/ViPER4Android" name="TurboROM/packages_apps_ViPER4Android" remote="github" revision="mm" />
   <project path="packages/inputmethods/LatinIME" name="TurboROM/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/ContactsProvider" name="TurboROM/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/DownloadProvider" name="TurboROM/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
