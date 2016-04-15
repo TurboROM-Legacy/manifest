@@ -566,8 +566,8 @@
   
   <!--Turbo OTA -->
   <project path="packages/apps/TurboOTA" name="TurboROM/packages_apps_TurboOTA" remote="github" revision="mm" />
-  <project path="OTA" name= "TurboROM/OTA" remote="github" revision="master" >
-      <copyfile src="ota_conf" dest="ota_conf" />
+  <project path="OTA" name= "TurboROM/OTA" remote="github" revision="mm" >
+     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
 
 </manifest>
