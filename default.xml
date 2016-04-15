@@ -564,7 +564,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.0-kernel" name="UBERTC/aarch64-linux-android-6.0-kernel" remote="bitbucket" revision="master" />
   
-  <!--Turbo OTA -->
+  <!-- Turbo OTA -->
   <project path="packages/apps/TurboOTA" name="TurboROM/packages_apps_TurboOTA" remote="github" revision="mm" />
   <project path="Documentation" name= "TurboROM/Documentation" remote="github" revision="mm" >
      <copyfile src="ota_conf" dest="ota_conf" />
