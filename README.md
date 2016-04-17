@@ -53,7 +53,6 @@ or:
 
 	mka turbo (Uses as much of the CPU as is possible)
 
-(NOTE: bacon does not build the OnePlus One, it will build any device)
 
  
  Our official device repository:
