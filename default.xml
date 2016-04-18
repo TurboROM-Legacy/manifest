@@ -73,6 +73,7 @@
   <project path="external/okhttp" name="TurboROM/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="TurboROM/external_sepolicy" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="TurboROM/external_skia" remote="github" revision="m6.0.1" />
+  <project path="external/sqlite" name="TurboROM/external_sqlite" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/av" name="TurboROM/frameworks_av" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="TurboROM/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="TurboROM/frameworks_native" groups="pdk" remote="github" revision="m6.0.1" />
@@ -381,7 +382,6 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
