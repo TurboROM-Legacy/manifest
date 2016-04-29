@@ -15,7 +15,6 @@
 -->
 <manifest>
 
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -62,17 +61,12 @@
   </project>
   <project path="manifest" name="TurboROM/manifest" remote="github" revision="m6.0.1" />
   <project path="bionic" name="TurboROM/bionic" groups="pdk" remote="github" revision="m6.0.1" />
-  <project path="device/qcom/common" name="TurboROM/device_qcom_common" remote="github" revision="m6.0.1" />
-  <project path="device/qcom/sepolicy" name="TurboROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/apache-http" name="TurboROM/external_apache-http" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/busybox" name="TurboROM/external_busybox" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="TurboROM/external_chromium-webview" remote="github" revision="m6.0.1" />
-  <project path="external/e2fsprogs" name="TurboROM/external_e2fsprogs" groups="pdk" remote="github" revision="m6.0.1" />
-  <project path="external/f2fs-tools" name="TurboROM/external_f2fs-tools" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/guava" name="TurboROM/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="TurboROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="TurboROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
-  <project path="external/lzma" name="TurboROM/external_lzma" groups="pdk" remote="github" revision="m6.0.1"  />
   <project path="external/okhttp" name="TurboROM/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="TurboROM/external_sepolicy" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="TurboROM/external_skia" remote="github" revision="m6.0.1" />
@@ -88,7 +82,6 @@
   <project path="frameworks/opt/telephony" name="TurboROM/frameworks_opt_telephony" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/support" name="TurboROM/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="hardware/cyanogen" name="TurboROM/hardware_cyanogen" remote="github" revision="m6.0.1" />
-  <project path="hardware/qcom/gps" name="TurboROM/hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="m6.0.1" />
   <project path="hardware/ril" name="TurboROM/hardware_ril" remote="github" revision="m6.0.1" groups="pdk" />
   <project path="hardware/ril-caf" name="TurboROM/hardware_ril" remote="github" groups="pdk" revision="m6.0.1-caf" />
   <project path="libcore" name="TurboROM/libcore" remote="github" revision="m6.0.1" />
@@ -116,21 +109,24 @@
   <project path="packages/services/Telecomm" name="TurboROM/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telephony" name="TurboROM/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/wallpapers/LivePicker" name="TurboROM/packages_wallpapers_LivePicker" groups="pdk-fs" remote="github" revision="m6.0.1" />
-  <project path="system/bt" name="TurboROM/system_bt" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="system/core" name="TurboROM/system_core" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="system/extras" name="TurboROM/system_extras" groups="pdk" remote="github" revision="m6.0.1" />
-  <project path="system/extras/su" name="TurboROM/system_extras_su" remote="github" revision="mm" />
   <project path="system/media" name="TurboROM/system_media" remote="github" revision="m6.0.1" />
+  <project path="system/netd" name="TurboROM/system_netd" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="system/vold" name="TurboROM/system_vold" groups="pdk" remote="github" revision="m6.0.1" />
-  <project path="vendor/qcom/opensource/dpm" name="TurboROM/vendor_qcom_opensource_dpm" remote="github" revision="m6.0.1" />
   <project path="vendor/turbo" name="TurboROM/vendor_turbo" remote="github" revision="m6.0.1" />
 
   <!-- Start CM repos -->
-  <project path="external/connectivity" name="android_external_connectivity"  remote="cm" revision="cm-13.0" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-13.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-13.0" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-13.0" />
   <project path="external/doclava" name="android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="external/vogar" name="android_external_vogar" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="external/lzma" name="android_external_lzma" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" revision="cm-13.0" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
@@ -153,6 +149,7 @@
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-13.0" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
@@ -175,21 +172,23 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-13.0" />
+  <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="cm" revision="cm-13.0" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" revision="cm-13.0" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
 
-  <!-- Slim -->
+  <!-- Slim projects -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="slim" revision="mm6.0" />
   <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="slim" revision="mm6.0" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="mm6.0" />
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="staging/mm6.0" />
 
-  <!-- Aosp projects -->
+  <!-- AOSP projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -496,7 +495,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" remote="aosp" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" remote="aosp" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" remote="aosp" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" remote="aosp" />
