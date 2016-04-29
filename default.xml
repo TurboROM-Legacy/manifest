@@ -73,7 +73,6 @@
   <project path="frameworks/av" name="TurboROM/frameworks_av" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="TurboROM/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="TurboROM/frameworks_native" groups="pdk" remote="github" revision="m6.0.1" />
-  <project path="frameworks/opt/bluetooth" name="TurboROM/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="frameworks/opt/cards" name="TurboROM/frameworks_opt_cards" remote="github" revision="m6.0.1" />
   <project path="frameworks/opt/hardware" name="TurboROM/frameworks_opt_hardware" remote="github" revision="m6.0.1" />
   <project path="frameworks/opt/net/ims" name="TurboROM/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
@@ -131,6 +130,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" remote="cm" revision="cm-13.0" />
