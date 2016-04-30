@@ -99,6 +99,7 @@
   <project path="packages/inputmethods/LatinIME" name="TurboROM/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/ContactsProvider" name="TurboROM/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/DownloadProvider" name="TurboROM/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
+  <project path="packages/providers/MediaProvider" name="TurboROM/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/providers/TelephonyProvider" name="TurboROM/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telecomm" name="TurboROM/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telephony" name="TurboROM/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="m6.0.1" />
@@ -168,7 +169,6 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-13.0" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" revision="cm-13.0" />
