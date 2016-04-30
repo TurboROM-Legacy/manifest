@@ -118,6 +118,7 @@
   <project path="external/doclava" name="android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
+  <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="external/vogar" name="android_external_vogar" groups="pdk" remote="cm" revision="cm-13.0" />
