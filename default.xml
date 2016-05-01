@@ -61,7 +61,7 @@
   </project>
   <project path="manifest" name="TurboROM/manifest" remote="github" revision="m6.0.1" />
   <project path="bionic" name="TurboROM/bionic" groups="pdk" remote="github" revision="m6.0.1" />
-  <project path="device/qcom/common" name="TurboROM/device_qcom_common" remote="github" revision="m6.0.1" />
+  <project path="device/qcom/common" name="TurboROM/device_qcom_common" remote="github" revision="mm" />
   <project path="external/apache-http" name="TurboROM/external_apache-http" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/busybox" name="TurboROM/external_busybox" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="TurboROM/external_chromium-webview" remote="github" revision="m6.0.1" />
