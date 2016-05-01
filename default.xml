@@ -61,6 +61,7 @@
   </project>
   <project path="manifest" name="TurboROM/manifest" remote="github" revision="m6.0.1" />
   <project path="bionic" name="TurboROM/bionic" groups="pdk" remote="github" revision="m6.0.1" />
+  <project path="device/qcom/common" name="TurboROM/device_qcom_common" remote="github" revision="m6.0.1" />
   <project path="external/apache-http" name="TurboROM/external_apache-http" groups="pdk" remote="github" revision="m6.0.1" />
   <project path="external/busybox" name="TurboROM/external_busybox" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="TurboROM/external_chromium-webview" remote="github" revision="m6.0.1" />
@@ -112,7 +113,6 @@
   <project path="vendor/turbo" name="TurboROM/vendor_turbo" remote="github" revision="m6.0.1" />
 
   <!-- Start CM repos -->
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-13.0" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-13.0" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-13.0" />
   <project path="external/doclava" name="android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="cm-13.0" />
