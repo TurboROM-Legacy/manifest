@@ -138,11 +138,9 @@
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-13.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-13.0" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-13.0" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0" />
@@ -578,5 +576,9 @@
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="du" revision="m" />
   <project path="packages/apps/DUI" name="TurboROM/packages_apps_DUI" remote="github" revision="mm" />
   <project path="external/DUtils" name="TurboROM/external_DUtils" remote="github" revision="mm" />
+ 
+  <!-- Fixed audio-cafs by vbajs -->
+  <project path="hardware/qcom/audio-caf/msm8960" name="vbajs/hardware_qcom_audio-caf_msm8960" remote="github" revision="master" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="vbajs/hardware_qcom_audio-caf_msm8916" remote="github" revision="master" />
 
 </manifest>
