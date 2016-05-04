@@ -165,6 +165,7 @@
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="cm" revision="cm-13.0" />
+  <project path="packages/apps/Gello" name="android_packages_apps_Gello" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" />
