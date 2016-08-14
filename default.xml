@@ -41,6 +41,7 @@
   <project name="external_chromium-webview" path="external/chromium-webview" clone-depth="1" remote="turbo" />
   <project name="external_dhcpcd" path="external/dhcpcd" remote="turbo" />
   <project name="external_doclava" path="external/doclava" remote="turbo" />
+  <project name="external_DUtils" path="external/DUtils" remote="turbo" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="turbo" />
   <project name="external_elfutils" path="external/elfutils" remote="turbo" />
   <project name="external_exfat" path="external/exfat" remote="turbo" />
@@ -98,6 +99,7 @@
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="turbo" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="turbo" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="turbo" />
+  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="turbo" />
   <project name="packages_apps_Email" path="packages/apps/Email" remote="turbo" />
   <project name="packages_apps_Exchange" path="packages/apps/Exchange" remote="turbo" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="turbo" />
