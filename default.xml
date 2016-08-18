@@ -106,6 +106,7 @@
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="turbo" />
   <project name="packages_apps_LockClock" path="packages/apps/LockClock" remote="turbo" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="turbo" />
+  <project name="packages_apps_Masquerade" path="packages/apps/Masquerade" remote="turbo" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="turbo" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="turbo" />
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="turbo" />
