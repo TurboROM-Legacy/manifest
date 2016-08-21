@@ -176,6 +176,7 @@
   <project name="android_external_libncurses" path="external/libncurses" remote="cm" />
   <project name="android_external_connectivity" path="external/connectivity" remote="cm" />
   <project name="android_external_google" path="external/google" remote="cm" />
+  <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="cm" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" remote="cm" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8084" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
