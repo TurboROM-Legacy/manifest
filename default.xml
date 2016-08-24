@@ -113,6 +113,7 @@
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="turbo" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="turbo" />
   <project name="packages_apps_Snap" path="packages/apps/Snap" remote="turbo" />
+  <project name="packages_apps_Substratum" path="packages/apps/Substratum" remote="turbo" />
   <project name="packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="turbo" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="turbo" />
   <project name="packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="turbo" />
