@@ -18,7 +18,7 @@
            fetch="https://github.com/" />
 
   <remote  name="turbo"
-           fetch="https://github.com/TurboROM"
+           fetch="https://github.com/TurboROM-Legacy"
            revision="refs/heads/m" />
 
   <default remote="caf" revision="LA.BF64.1.2.2_rb4.45" />
