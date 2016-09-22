@@ -20,7 +20,7 @@ Next, naviate into that new directory via the terminal:
 
 To initialize your local repository using the Turbo ROM trees, use this command:
 
-	repo init -u git://github.com/TurboROM/manifest.git -b m
+	repo init -u git://github.com/TurboROM-Legacy/manifest.git -b m
 
 Then sync up with this command:
 
